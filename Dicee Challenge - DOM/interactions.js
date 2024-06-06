@@ -1,6 +1,5 @@
 //First Dice
 var randomNumber = Math.floor(Math.random()*6)+1;
-
 var printedImage = "images/dice" + randomNumber + ".png"
 
 var AttributeSet = document.querySelectorAll("img")[0]
